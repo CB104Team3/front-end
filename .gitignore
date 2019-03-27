@@ -1,0 +1,5 @@
+Code/__*
+Code/MyUtil/__pycache__/*
+Code/pylineliff/__pycache__/liff_api.cpython-36.pyc
+*.pyc
+.idea/*
