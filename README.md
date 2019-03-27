@@ -48,6 +48,8 @@ chmod 777 -R mongoData
 sh start.sh
 ```
 
+啟動 docker compose
+
 
 #### 修改 Mysql 密碼 及 host
 
@@ -79,9 +81,7 @@ passwd = db password
 
 Run 到 上傳圖片完成為止
 
-確認 `Code/line_secret_key` 是否完成更改
-
-rich_menu_id 的部分
+確認 `Code/line_secret_key` 是否完成更改 rich_menu_id 的部分
 
 打開 `Code/Step 2.py`
 
@@ -91,6 +91,9 @@ rich_menu_id 的部分
 ```angular2
 sh start-server.sh
 ```
+
+啟動 Flask Server
+
 
 ### 關閉Server 及 Container
 
